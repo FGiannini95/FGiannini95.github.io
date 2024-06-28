@@ -1,10 +1,12 @@
 import './App.css'
+import { HuesoCabra } from './routes/HuesoCabra'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <>
-      <h1>HuesoCabra</h1>
-      <p>By Nacho Segura</p>
+      <HuesoCabra/>
     </>
   )
 }
