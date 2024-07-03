@@ -6,10 +6,12 @@ import { About } from '../pages/About/About'
 import { Projects } from '../pages/Projects/Projects'
 import { Profile } from '../pages/Profile/Profile'
 import { Shop } from '../pages/Shop/Shop'
+import { NavbarHuesoCabra } from '../components/NavbarHuesoCabra/NavbarHuesoCabra'
 
 export const HuesoCabra = () => {
   return (
     <BrowserRouter>
+      <NavbarHuesoCabra/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}/>
