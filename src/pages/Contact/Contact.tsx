@@ -39,6 +39,7 @@ export const Contact = () => {
               <FaGithub />
             </Nav.Link>
           </div>
+          <div> noo</div>
         </Col>
       </Row>
     </Container>
