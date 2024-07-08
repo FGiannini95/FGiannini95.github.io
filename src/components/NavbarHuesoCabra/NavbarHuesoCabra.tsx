@@ -17,11 +17,9 @@ export const NavbarHuesoCabra = () => {
       <Navbar.Collapse id="navbarNav" className="justify-content-center">
         <Nav className="mr-auto d-flex align-items-center" onSelect={handleSelect}>
           <Nav.Link as={Link} to="/" className="active" onClick={()=> setExpanded(false)}>Home</Nav.Link>
-          <Nav.Link as={Link} to="/projects" onClick={()=> setExpanded(false)}>Projects</Nav.Link>
-          <Nav.Link as={Link} to="/profile" onClick={()=> setExpanded(false)}>Practice</Nav.Link>
-          <Nav.Link as={Link} to="/shop" onClick={()=> setExpanded(false)}>Shop</Nav.Link>
-          <Nav.Link as={Link} to="/about" onClick={()=> setExpanded(false)}>About</Nav.Link>
-          <Nav.Link as={Link} to="/contact" onClick={()=> setExpanded(false)}>Contact</Nav.Link>
+          <Nav.Link as={Link} to="/taller" onClick={()=> setExpanded(false)}>Taller</Nav.Link>
+          <Nav.Link as={Link} to="/contacto" onClick={()=> setExpanded(false)}>Contacto</Nav.Link>
+          <Nav.Link as={Link} to="/tienda" onClick={()=> setExpanded(false)}>Tienda</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
