@@ -1,7 +1,15 @@
+import { CardOneTrabajo } from "../../components/CardOneTrabajo/CardOneTrabajo"
+
 export const Home = () => {
   return (
-    <div>
-      <h1>querubintrompitaojitos de miel boquita de piñon</h1>
-    </div>
+    <section>
+      <p>
+        Explorar mis trabjaos!
+      </p>
+      {/* {dataTrabajos?.map((elem) => {
+        return <CardOneTrabajo key={elem.id} elem={elem}/>
+      })
+      } */}
+    </section>
   )
 }
