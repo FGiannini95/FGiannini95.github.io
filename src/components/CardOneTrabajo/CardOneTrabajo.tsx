@@ -8,7 +8,7 @@ export const CardOneTrabajo: React.FC<CardOneTrabajoProps> = ({ elem }) => {
 
   return (
     <Card style={{ width: '18rem' }} className="text-center mx-2">
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={`/assets/${elem.image}`} />
       <Card.Body>
         <Card.Title>{elem.name}</Card.Title>
         <Card.Text>
