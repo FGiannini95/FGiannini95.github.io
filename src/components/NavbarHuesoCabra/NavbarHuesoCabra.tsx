@@ -12,7 +12,7 @@ export const NavbarHuesoCabra = () => {
   }
 
   return (
-    <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center navbar' expanded={expanded} >
+    <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center navbar mb-2' expanded={expanded} >
       {/* <Navbar.Brand href="/">Home</Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="navbarNav" className="mx-auto m-3" onClick={()=> setExpanded(!expanded)}/> 
       <Navbar.Collapse id="navbarNav" className="justify-content-center">
