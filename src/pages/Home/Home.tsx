@@ -6,11 +6,11 @@ import { HomeProps } from '../../types';
 export const Home: React.FC<HomeProps> = ({ data }) => {
   return (
     <section className="p-5">
-      <h2 style={{ color: '#0066AE' }} className="text-center">HUESOCABRA</h2>
+      <h2 style={{ color: '#0066AE' }} className="text-center pt-5 mb-4">HUESOCABRA</h2>
       <Container>
         <Row>
           {data?.map((elem) => (
-            <Col xs={12} sm={6} md={4} lg={3} key={elem.id} className="mb-4">
+            <Col xs={12} sm={6} md={4} lg={3} key={elem.id} className="mb-4 d-flex">
               <CardOneTrabajo elem={elem} />
             </Col>
           ))}

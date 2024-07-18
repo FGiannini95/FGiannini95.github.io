@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import { Nav, Navbar} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { useState } from 'react';
+import { Nav, Navbar} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './NavbarHuesoCabra.css';
 
 export const NavbarHuesoCabra = () => {
 
@@ -11,7 +12,7 @@ export const NavbarHuesoCabra = () => {
   }
 
   return (
-    <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center' expanded={expanded} >
+    <Navbar bg="body-tertiary" expand="sm" className='navPpl d-flex justify-content-center navbar' expanded={expanded} >
       {/* <Navbar.Brand href="/">Home</Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="navbarNav" className="mx-auto m-3" onClick={()=> setExpanded(!expanded)}/> 
       <Navbar.Collapse id="navbarNav" className="justify-content-center">
