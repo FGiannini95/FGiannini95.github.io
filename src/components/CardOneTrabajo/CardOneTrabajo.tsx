@@ -8,7 +8,7 @@ export const CardOneTrabajo: React.FC<CardOneTrabajoProps> = ({ elem }) => {
   const navigate = useNavigate();
 
   return (
-    <Card style={{ width: '18rem', cursor: 'pointer' }} className="text-center mx-2 img-proyecto" onClick={() => navigate('/contacto')}>
+    <Card style={{ width: '18rem', cursor: 'pointer' }} className="text-center mx-2 img-proyecto" onClick={() => navigate(`/oneProject/${elem.id}`)}>
       <Card.Img variant="top" src={`/assets/${elem.image}`} />
       <Card.Body>
         <Card.Title>{elem.name}</Card.Title>

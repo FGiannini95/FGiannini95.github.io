@@ -6,6 +6,7 @@ import { Shop } from '../pages/Shop/Shop';
 import { NavbarHuesoCabra } from '../components/NavbarHuesoCabra/NavbarHuesoCabra';
 import { Taller } from '../pages/Taller/Taller';
 import { dataTrabajos } from '../data/data';
+import { OneProject } from '../pages/OneProject/OneProject';
 
 
 export const HuesoCabra = () => {
@@ -17,6 +18,7 @@ export const HuesoCabra = () => {
           <Route path='/taller' element={<Taller />} />
           <Route path='/contacto' element={<Contact />} />
           <Route path='/tienda' element={<Shop />} />
+          <Route path='/oneExercise/:id' element={<OneProject data={dataTrabajos}/>}/>
           <Route path='*' element={<ErrorPage />} />
         </Routes>
     </BrowserRouter>
