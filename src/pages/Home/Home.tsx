@@ -6,7 +6,6 @@ import { HomeProps } from '../../types';
 export const Home: React.FC<HomeProps> = ({ data }) => {
   return (
     <section className="p-5">
-      <h2 style={{ color: '#0066AE' }} className="text-center pt-5 mb-4">HUESOCABRA</h2>
       <Container>
         <Row>
           {data?.map((elem) => (

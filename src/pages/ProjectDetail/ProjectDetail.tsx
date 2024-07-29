@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
 import { dataTrabajos } from '../../data/data';
+import './ProjectDetails.css'
 
 export const ProjectDetail: React.FC = () => {
   const { id } = useParams();
@@ -13,7 +14,7 @@ export const ProjectDetail: React.FC = () => {
 
   return (
     <section className="p-5">
-      <h1>{project.title}</h1>
+      <h1 className='font-weigh'>{project.title}</h1>
       <p>{project.description}</p>
       <p>{project.material}</p>
       <Carousel

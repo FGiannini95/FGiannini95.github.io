@@ -12,7 +12,7 @@ export const dataTrabajos = [
   {
     id: 1,
     name: "Silla Bobardi",
-    image: "02_Silla Bobardi .jpg",
+    image: "SillaBobardi.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     material: "Es todo madera",
@@ -22,7 +22,7 @@ export const dataTrabajos = [
   {
     id: 2,
     name: "Taburete Bobardi",
-    image: "01_Taburete Bobardi.jpg",
+    image: "TabureteBobardi.jpg",
     title: "Taburete Bobardi",
     description: "Descripción detallada de Taburete Bobardi",
     carpeta: 'TabureteBobardi',
@@ -31,7 +31,7 @@ export const dataTrabajos = [
   {
     id: 3,
     name: "Banqueta",
-    image: "01_Banqueta de tablero.jpg",
+    image: "Banqueta.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     carpeta: 'SillaBobardi',
@@ -40,7 +40,7 @@ export const dataTrabajos = [
   {
     id: 4,
     name: "Mesa sandwich",
-    image: "01_mesa sandwich.jpg",
+    image: "MesaSandwich.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     carpeta: 'SillaBobardi',
@@ -49,7 +49,7 @@ export const dataTrabajos = [
   {
     id: 5,
     name: "Cubo 11 artistas",
-    image: "01_Cubo de 11 aristas.jpg",
+    image: "Cubo11Artistas.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     carpeta: 'SillaBobardi',
@@ -58,7 +58,7 @@ export const dataTrabajos = [
   {
     id: 6,
     name: "Estantería sección variable",
-    image: "03_estantería de sección variable.jpg",
+    image: "EstanteríaSecciónVariable.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     carpeta: 'SillaBobardi',
@@ -66,8 +66,8 @@ export const dataTrabajos = [
   },
   {
     id: 7,
-    name: "Más cosas de nuestro querubín",
-    image: "03_Silla Bobardi .jpg",
+    name: "Banco de trabajo",
+    image: "BancoTrabajo.jpg",
     title: "Silla Bobardi",
     description: "Descripción detallada de Silla Bobardi",
     carpeta: 'SillaBobardi',
