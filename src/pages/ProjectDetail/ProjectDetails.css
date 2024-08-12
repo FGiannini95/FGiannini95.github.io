@@ -1,3 +1,8 @@
-.h1{
+.projectTitle{
   font-weight: 400;
+  color: rgb(17, 100, 180);
+}
+
+.thumbnail-image{
+  cursor: pointer;
 }

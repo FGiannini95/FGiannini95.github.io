@@ -17,14 +17,14 @@ export const ProjectDetail: React.FC = () => {
     <Container className='pt-5'>
       <Row>
         <Col xs={12} md={6}>
-          <h1 className='font-weigh'>{project.title}</h1>
+          <h1 className='projectTitle'>{project.title}</h1>
           <p>{project.description}</p>
           <p>{project.material}</p>
           <p>{project.medida}</p>
           <p>{project.peso}</p>
         </Col>
         <Col xs={12} md={6}>
-          <img className="d-block project-image w-50" src={`/assets/${project.carpeta}/${selectedImage}`} alt={project.title} />
+          <img className="d-block project-image w-100" src={`/assets/${project.carpeta}/${selectedImage}`} alt={project.title} />
         </Col>
       </Row>
       <Row className="mt-4">
