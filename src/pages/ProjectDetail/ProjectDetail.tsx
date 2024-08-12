@@ -27,7 +27,7 @@ export const ProjectDetail: React.FC = () => {
           <img className="d-block project-image w-100" src={`/assets/${project.carpeta}/${selectedImage}`} alt={project.title} />
         </Col>
       </Row>
-      <Row className="mt-4">
+      <Row className="pt-5">
         {project.images.map((image, index) => (
           <Col xs={3} md={2} key={index} className="mb-3">
             <img
