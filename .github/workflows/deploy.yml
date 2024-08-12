@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp://ftp.tudominio.com  # Reemplaza con el host FTP de tu servidor
+        ftp-server: ftp://huesocabra.com  # Reemplaza con el host FTP de tu servidor
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build
