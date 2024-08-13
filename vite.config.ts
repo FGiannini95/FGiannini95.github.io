@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build' // Configura la carpeta de salida
-  }
+    outDir: 'build', // Configura la carpeta de salida
+    rollupOptions: {
+      external: ['bootstrap/dist/css/bootstrap.min.css'], // Externaliza Bootstrap
+    },
+  },
 })
