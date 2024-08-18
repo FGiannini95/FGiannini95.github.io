@@ -9,7 +9,7 @@ export const Home: React.FC<HomeProps> = ({ data }) => {
       <Container>
         <Row>
           {data?.map((elem) => (
-            <Col xs={12} sm={3} md={3} lg={3} key={elem.id} className="my-4 d-flex">
+            <Col xs={12} sm={6} md={6} lg={3} key={elem.id} className="my-4 d-flex homeView">
               <CardOneTrabajo elem={elem} />
             </Col>
           ))}

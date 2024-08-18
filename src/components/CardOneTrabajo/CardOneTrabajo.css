@@ -2,7 +2,6 @@
     transition: all 0.5s;
     /* border: none !important; */ /*TODO: remove comment*/
     height: 25rem;
-
 }
 
 .img-proyecto:hover {
@@ -10,4 +9,10 @@
   border-radius: 0.5rem;
   background-color: white;
   /* border: none !important; */ /*TODO: remove comment*/
+}
+
+@media (max-width: 576px) {
+  .img-proyecto:hover {
+    transform: none;
+  }
 }
