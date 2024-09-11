@@ -24,13 +24,13 @@ export const dataTrabajos = [
   {
     id: 3,
     name: "Caballete",
-    image: "Banqueta.jpg",
+    image: "Caballete.jpg",
     title: "Caballete",
     description: "Un banco para una casa, un caballete para el taller, o una mesa. Un elemento minimalista con muchas posibilidades. Es apilable horizontalmente, de esta manera se podrán juntar dos o más para crear superficies más grandes. La construcción del caballete admite infinidad de materiales.",
     material: "Madera maciza de roble.",
     medida: "15 x 45 x 45 cm",
-    carpeta: 'BanquetaTablero',
-    images: ["01BanquetaTablero.jpg", "02BanquetaTablero.jpg", "03BanquetaTablero.jpg", "04BanquetaTablero.jpg"]
+    carpeta: 'Caballete',
+    images: ["01Caballete.jpg", "02Caballete.jpg", "03Caballete.jpg", "04Caballete.jpg"]
   },
   {
     id: 4,
