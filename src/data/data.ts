@@ -13,13 +13,13 @@ export const dataTrabajos = [
   {
     id: 2,
     name: "Banqueta Bo Bardi",
-    image: "TabureteBobardi.jpg",
-    title: "Taburete Bo Bardi",
+    image: "BanquetaBoBardi.jpg",
+    title: "Banqueta Bo Bardi",
     description: "La versión reducida de la silla Bo Bardi. Una banqueta baja. Un mueble más versátil pensado para espacios pequeños. El asiento puede fabricarse con tableros de fibra o con madera maciza.",
     material: "Madera maciza de roble y MDF hidrófugo.",
     medida: "30 x 40 x 35 cm",
-    carpeta: 'TabureteBobardi',
-    images: ["01TabureteBobardi.jpg", "02TabureteBobardi.jpg", "03TabureteBobardi.jpg", "05TabureteBobardi.jpg", "06TabureteBobardi.jpg"]
+    carpeta: 'BanquetaBoBardi',
+    images: ["01BanquetaBoBardi.jpg", "02BanquetaBoBardi.jpg", "03BanquetaBoBardi.jpg", "04BanquetaBoBardi.jpg", "05BanquetaBoBardi.jpg"]
   },
   {
     id: 3,
@@ -73,8 +73,8 @@ export const dataTrabajos = [
     description: "Un banco de trabajo para el taller. Una mesa alta y robusta, con apoyos nivelables y ruedas para desplazarla fácilmente por el taller. La superficie de trabajo se construye con un tablero de MDF hidrófugo de 30 milímetros de espesor. La estructura está hecha de madera maciza de pino laminada.",
     material: "Madera maciza de pino y MDF hidrófugo.",
     medida: "120 x 240 x 90 cm",
-    carpeta: 'SillaBobardi',
-    images: ["02_Silla Bobardi .jpg", "02_Silla Bobardi_1.jpg", "02_Silla Bobardi_2.jpg"]
+    carpeta: 'BancoTrabajo',
+    images: ["01BancoTrabajo.jpg", "02BancoTrabajo.jpg", "03BancoTrabajo.jpg"]
   },
   
 ];
