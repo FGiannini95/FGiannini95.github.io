@@ -21,7 +21,6 @@ export const ProjectDetail: React.FC = () => {
           <p>{project.description}</p>
           <p>{project.material}</p>
           <p>{project.medida}</p>
-          <p>{project.peso}</p>
         </Col>
         <Col xs={12} md={6}>
           <img className="d-block project-image w-100" src={`/assets/${project.carpeta}/${selectedImage}`} alt={project.title} />
