@@ -67,8 +67,8 @@ export const Contact = () => {
           <div className='text-center'>
             <Nav.Link href="https://www.google.de/maps/place/La+Buia+Espacio+Creativo/@37.1607516,-3.6184501,20z/data=!4m9!1m2!2m1!1sJuncos+Pol%C3%ADgono+Industrial+Ctjo.+la+Pur%C3%ADsima,+7,+18006+Granada!3m5!1s0xd71fd555fe9c1d9:0xd4a0ecdea880281c!8m2!3d37.1608154!4d-3.6183347!16s%2Fg%2F11p66tfx3l?entry=ttu" className="link" target="_blank">
               <GiPositionMarker />
-              <p>Polígono Industrial La Purísima</p>
-              <p>Granada 18004</p>
+              <p>Polígono de la Purísima, Calle de los juncos 121, nave 10-B</p>
+              <p>18006 Granada</p>
               <p>España</p>
             </Nav.Link>
           </div>
@@ -90,7 +90,7 @@ export const Contact = () => {
         <Col sm={6} md={6} xl={3}>
           <div className='text-center'>
             <FaPhone />
-            <p>+34 722 63 55 77</p>
+            <p>+34 625 98 83 12</p>
           </div>
         </Col>
       </Row>
