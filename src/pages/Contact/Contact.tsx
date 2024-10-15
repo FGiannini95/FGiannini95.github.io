@@ -59,14 +59,14 @@ export const Contact = () => {
               rel="noopener noreferrer"
             >
               <FaInstagram />
-              <p>huesocabra</p>
+              <p style={{ fontSize: '0.8rem' }}>huesocabra</p>
             </Nav.Link>
           </div>
         </Col>
         <Col sm={6} md={6} xl={3}>
           <div className='text-center'>
             <FaPhone />
-            <p>+34 625 98 83 12</p>
+            <p style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
           </div>
         </Col>
       </Row>
