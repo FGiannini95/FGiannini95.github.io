@@ -16,9 +16,9 @@ export const ProjectDetail: React.FC = () => {
   return (
     <Container className='pt-5'>
       <Row>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} style={{ textAlign: 'justify' }}>
           <h1 className='projectTitle'>{project.title}</h1>
-          <p>{project.description}</p>
+          <p className='projectDescription'>{project.description}</p>
           <p>{project.material}</p>
           <p>{project.medida}</p>
         </Col>

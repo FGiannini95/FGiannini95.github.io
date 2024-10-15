@@ -2,10 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-wrap: balance;
 }
 
@@ -19,7 +24,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: 0.75rem;
+  width: 0.4rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,7 +32,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color:rgb(17, 100, 180);
+  background-color: rgb(17, 100, 180);
   border-radius: 1rem;
   border: 1px solid black;
 }
@@ -35,5 +40,3 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(13, 71, 126);
 }
-
-

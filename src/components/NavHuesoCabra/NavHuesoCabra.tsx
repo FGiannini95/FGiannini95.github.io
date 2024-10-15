@@ -14,8 +14,8 @@ export const NavHuesoCabra = () => {
         <Navbar.Toggle aria-controls="navbarNav" className='navbarToggle' onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="navbarNav" className="justify-content-end">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to="/tienda" onClick={() => setExpanded(false)}>Tienda</Nav.Link>
-            <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)}>Contacto</Nav.Link>
+            {/* <Nav.Link as={Link} to="/tienda" onClick={() => setExpanded(false)} className='navbarLogo'>Tienda</Nav.Link> */}
+            <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)} className='navbarLogo'>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

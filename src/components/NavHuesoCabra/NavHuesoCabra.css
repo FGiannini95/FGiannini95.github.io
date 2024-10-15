@@ -1,5 +1,5 @@
-.navbar{
-  background-color: #F6F0E2;
+.navbar {
+  background-color: #f6f0e2;
 }
 
 .navbarLogo {
@@ -16,7 +16,7 @@
   color: rgb(17, 100, 180);
 }
 
-.navbarToggle{
+.navbarToggle {
   border: none;
   outline: none;
   color: rgb(17, 100, 180);
@@ -27,5 +27,3 @@
     margin-left: -10px;
   }
 }
-
-

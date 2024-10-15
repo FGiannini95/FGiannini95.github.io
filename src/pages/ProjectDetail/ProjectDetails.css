@@ -1,6 +1,8 @@
 .projectTitle{
-  font-weight: 400;
-  color: rgb(17, 100, 180);
+  font-weight: bold;
+}
+.projectDescription{
+  font-weight: light;
 }
 
 .thumbnail-image{
