@@ -1,0 +1,23 @@
+/* styles.css */
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text {
+  display: inline; /* Default is to show text */
+}
+
+@media (max-width: 768px) {
+  .contact-text {
+    display: none; /* Ocultar el texto en móviles y tablets */
+  }
+
+  .contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
