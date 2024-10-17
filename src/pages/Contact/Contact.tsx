@@ -34,7 +34,7 @@ export const Contact = () => {
           <div className='text-center'>
             <Nav.Link href="mailto:info@huesocabra.com" className="link">
               <MdEmail />
-              <p>info@huesocabra.com</p>
+              <p style={{ fontSize: '0.8rem' }}>info@huesocabra.com</p>
             </Nav.Link>
           </div>
         </Col>
@@ -42,7 +42,7 @@ export const Contact = () => {
           <div className='text-center'>
             <Nav.Link href="https://www.google.de/maps/place/La+Buia+Espacio+Creativo/@37.1607516,-3.6184501,20z/data=!4m9!1m2!2m1!1sJuncos+Pol%C3%ADgono+Industrial+Ctjo.+la+Pur%C3%ADsima,+7,+18006+Granada!3m5!1s0xd71fd555fe9c1d9:0xd4a0ecdea880281c!8m2!3d37.1608154!4d-3.6183347!16s%2Fg%2F11p66tfx3l?entry=ttu" className="link" target="_blank">
               <GiPositionMarker />
-              <p>Polígono de la Purísima</p>
+              < p style={{ fontSize: '0.8rem' }}>Polígono de la Purísima, 18006 Granada</p>
               {/* <p>Calle de los juncos 121, nave 10-B</p>
               <p>18006 Granada</p>
               <p>España</p> */}
