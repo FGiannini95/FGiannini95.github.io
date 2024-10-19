@@ -16,7 +16,7 @@ export const ProjectDetail: React.FC = () => {
   }
 
   return (
-    <Container className='pt-5'>
+    <Container className='pt-5 pb-5'>
       <Row>
         <Col xs={12} md={6} style={{ textAlign: 'justify' }}>
           <div className='d-flex align-items-center pb-2'>

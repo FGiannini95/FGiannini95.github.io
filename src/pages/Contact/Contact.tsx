@@ -18,7 +18,7 @@ export const Contact = () => {
             className="img-fluid"
           />
         </Col>
-        <Col xs={12} md={6} >
+        <Col xs={12} md={6} className="pt-3 pt-md-0">
           <p style={{ textAlign: 'justify', width: '100%' }}>
             <span style={{ fontWeight: 'bold' }}>HUESOCABRA</span> es un espacio de creación emancipado. Un lugar para la experimentación del diseño y la producción artesanal de elementos en madera. Desde la silla a la cabaña. No es solo un taller, sino un estudio de carpintería. Donde la materialización individual de cada pieza va acompañada de un proceso creativo, alejándose de producciones en masa y prácticas agresivas de consumo. Diseñamos piezas únicas de mobiliario que se inspiran en la tradición para comunicarse en un lenguaje contemporáneo y experimental.</p>
           <p style={{ textAlign: 'justify', width: '100%' }}>
@@ -29,45 +29,34 @@ export const Contact = () => {
         </Col>
       </Row>
       <hr />
-      <Row>
-        <Col sm={6} md={6} xl={3}>
-          <div className='text-center'>
-            <Nav.Link href="mailto:info@huesocabra.com" className="link">
-              <MdEmail />
-              <p style={{ fontSize: '0.8rem' }}>info@huesocabra.com</p>
-            </Nav.Link>
-          </div>
+      <Row className="d-flex justify-content-between">
+        <Col xs={3} className="text-center">
+          <Nav.Link href="mailto:info@huesocabra.com" className="link">
+            <MdEmail size={20} />
+            <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>info@huesocabra.com</p>
+          </Nav.Link>
         </Col>
-        <Col sm={6} md={6} xl={3}>
-          <div className='text-center'>
-            <Nav.Link href="https://www.google.de/maps/place/La+Buia+Espacio+Creativo/@37.1607516,-3.6184501,20z/data=!4m9!1m2!2m1!1sJuncos+Pol%C3%ADgono+Industrial+Ctjo.+la+Pur%C3%ADsima,+7,+18006+Granada!3m5!1s0xd71fd555fe9c1d9:0xd4a0ecdea880281c!8m2!3d37.1608154!4d-3.6183347!16s%2Fg%2F11p66tfx3l?entry=ttu" className="link" target="_blank">
-              <GiPositionMarker />
-              < p style={{ fontSize: '0.8rem' }}>Polígono de la Purísima, 18006 Granada</p>
-              {/* <p>Calle de los juncos 121, nave 10-B</p>
-              <p>18006 Granada</p>
-              <p>España</p> */}
-            </Nav.Link>
-          </div>
+        <Col xs={3} className="text-center">
+          <Nav.Link href="https://www.google.de/maps/place/La+Buia+Espacio+Creativo/@37.1607516,-3.6184501,20z/data=!4m9!1m2!2m1!1sJuncos+Pol%C3%ADgono+Industrial+Ctjo.+la+Pur%C3%ADsima,+7,+18006+Granada!3m5!1s0xd71fd555fe9c1d9:0xd4a0ecdea880281c!8m2!3d37.1608154!4d-3.6183347!16s%2Fg%2F11p66tfx3l?entry=ttu" className="link" target="_blank">
+            <GiPositionMarker size={20} />
+            <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>Polígono de la Purísima, 18006 Granada</p>
+          </Nav.Link>
         </Col>
-        <Col sm={6} md={6} xl={3}>
-          <div className='text-center'>
-            <Nav.Link
-              as={Link}
-              to="https://www.instagram.com/huesocabra/?igsh=MWgxdXJqaTc5YzY0OQ%3D%3D"
-              className="link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-              <p style={{ fontSize: '0.8rem' }}>huesocabra</p>
-            </Nav.Link>
-          </div>
+        <Col xs={3} className="text-center">
+          <Nav.Link
+            as={Link}
+            to="https://www.instagram.com/huesocabra/?igsh=MWgxdXJqaTc5YzY0OQ%3D%3D"
+            className="link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram size={20} />
+            <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>huesocabra</p>
+          </Nav.Link>
         </Col>
-        <Col sm={6} md={6} xl={3}>
-          <div className='text-center'>
-            <FaPhone />
-            <p style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
-          </div>
+        <Col xs={3} className="text-center">
+          <FaPhone size={20} />
+          <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
         </Col>
       </Row>
     </Container>
