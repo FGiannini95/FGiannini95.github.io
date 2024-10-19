@@ -55,8 +55,10 @@ export const Contact = () => {
           </Nav.Link>
         </Col>
         <Col xs={3} className="text-center">
-          <FaPhone size={20} />
-          <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
+          <Nav.Link href="tel:+34625988312" style={{ padding: 0, color: 'inherit' }}>
+            <FaPhone size={20} />
+            <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
+          </Nav.Link>
         </Col>
       </Row>
     </Container>
