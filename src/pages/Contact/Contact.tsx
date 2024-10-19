@@ -16,6 +16,7 @@ export const Contact = () => {
             src="/assets/NachoSegura.jpg"
             alt="Foto perfil Nacho Segura"
             className="img-fluid"
+            loading="lazy"
           />
         </Col>
         <Col xs={12} md={6} className="pt-3 pt-md-0">

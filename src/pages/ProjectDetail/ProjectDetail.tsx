@@ -38,6 +38,7 @@ export const ProjectDetail: React.FC = () => {
               className={`thumbnail-image w-100 ${selectedImage === image ? 'selected-thumbnail' : ''}`}
               src={`/assets/${project.carpeta}/${image}`}
               alt={`Thumbnail ${index}`}
+              loading="lazy"
               onClick={() => setSelectedImage(image)}
             />
           </Col>

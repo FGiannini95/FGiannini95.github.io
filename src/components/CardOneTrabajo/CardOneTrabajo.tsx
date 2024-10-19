@@ -13,7 +13,11 @@ export const CardOneTrabajo: React.FC<CardOneTrabajoProps> = ({ elem }) => {
       className="text-center mx-2 img-proyecto"
       onClick={() => navigate(`/oneProject/${elem.id}`)}
     >
-      <Card.Img variant="top" src={`/assets/${elem.image}`} />
+      <Card.Img
+        variant="top"
+        src={`/assets/${elem.image}`}
+        loading="lazy"
+      />
     </Card>
   )
 }
