@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const Contact = () => {
 
   return (
-    <Container className="container-fluid p-5">
+    <Container className="container-fluid pt-5 pb-5">
       <Row className="align-items-center">
         <Col xs={12} md={6} className="d-flex justify-content-center">
           <img
@@ -18,7 +18,7 @@ export const Contact = () => {
             className="img-fluid"
           />
         </Col>
-        <Col xs={12} md={6} className="pt-4">
+        <Col xs={12} md={6} >
           <p style={{ textAlign: 'justify', width: '100%' }}>
             <span style={{ fontWeight: 'bold' }}>HUESOCABRA</span> es un espacio de creación emancipado. Un lugar para la experimentación del diseño y la producción artesanal de elementos en madera. Desde la silla a la cabaña. No es solo un taller, sino un estudio de carpintería. Donde la materialización individual de cada pieza va acompañada de un proceso creativo, alejándose de producciones en masa y prácticas agresivas de consumo. Diseñamos piezas únicas de mobiliario que se inspiran en la tradición para comunicarse en un lenguaje contemporáneo y experimental.</p>
           <p style={{ textAlign: 'justify', width: '100%' }}>

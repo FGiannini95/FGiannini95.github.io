@@ -5,7 +5,7 @@ import { HomeProps } from '../../types';
 
 export const Home: React.FC<HomeProps> = ({ data }) => {
   return (
-    <section className="p-5">
+    <section className="pt-5 pb-5">
       <Container>
         <Row>
           {data?.map((elem) => (
