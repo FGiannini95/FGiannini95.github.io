@@ -13,7 +13,7 @@ export const Contact = () => {
       <Row className="align-items-center">
         <Col xs={12} md={6} className="d-flex justify-content-center">
           <img
-            src="/public/assets/NachoSegura.jpg"
+            src="/assets/NachoSegura.jpg"
             alt="Foto perfil Nacho Segura"
             className="img-fluid"
           />
