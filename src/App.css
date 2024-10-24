@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
+  color: rgb(17, 100, 180);
 }
 
 h1,
@@ -12,10 +13,12 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+  color: rgb(17, 100, 180);
 }
 
 p {
   text-wrap: pretty;
+  color: rgb(17, 100, 180);
 }
 
 img {

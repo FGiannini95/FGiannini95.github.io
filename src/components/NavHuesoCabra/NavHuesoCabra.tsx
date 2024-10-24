@@ -10,12 +10,12 @@ export const NavHuesoCabra = () => {
   return (
     <Navbar expanded={expanded} expand="sm" className="navbar sticky-top p-2">
       <Container>
-        <Navbar.Brand as={Link} to="/" className='navbarLogo'>Huesocabra</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className='navbarLogo'>HUESOCABRA</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" className='navbarToggle' onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="navbarNav" className="justify-content-end">
           <Nav className="ml-auto">
             {/* <Nav.Link as={Link} to="/tienda" onClick={() => setExpanded(false)} className='navbarLogo'>Tienda</Nav.Link> */}
-            <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)} className='navbarLogo'>Contacto</Nav.Link>
+            <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)} className='navbarLogo'>CONTACTO</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
