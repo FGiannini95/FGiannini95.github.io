@@ -20,11 +20,11 @@ export const Contact = () => {
           />
         </Col>
         <Col xs={12} md={6} className="pt-3 pt-md-0">
-          <p style={{ textAlign: 'justify', width: '100%' }}>
+          <p>
             <span style={{ fontWeight: 'bold' }}>HUESOCABRA</span> es un espacio de creación emancipado. Un lugar para la experimentación del diseño y la producción artesanal de elementos en madera. Desde la silla a la cabaña. No es solo un taller, sino un estudio de carpintería. Donde la materialización individual de cada pieza va acompañada de un proceso creativo, alejándose de producciones en masa y prácticas agresivas de consumo. Diseñamos piezas únicas de mobiliario que se inspiran en la tradición para comunicarse en un lenguaje contemporáneo y experimental.</p>
-          <p style={{ textAlign: 'justify', width: '100%' }}>
+          <p >
             Soy Ignacio Segura, arquitecto por la universidad de Granada. Siempre me han interesado las posibilidades que ofrece la madera como material de construción. Tras graduarme adquirí algunos conocimientos trabajando como carpintero de armar, y posteriormente como carpinterio de riviera en un astillero. Entiendo la construcción en madera como un juego de suma y resta de elementos que se resuelve en los encuentros.</p>
-          <p style={{ textAlign: 'justify', width: '100%' }}>
+          <p >
             El diseño de mobiliario funciona igual, pero a otra escala. Me gusta pensar que el mueble ayuda a entender el espacio que habita. Lo subraya, lo moldea, o lo recorre. En <span style={{ fontWeight: 'bold' }}>HUESOCABRA</span> trabajamos para descubrir y fabricar esa pieza de mobiliario que pide tu espacio
           </p>
         </Col>
