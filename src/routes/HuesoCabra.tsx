@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from '../pages/Home/Home';
 import { ErrorPage } from '../pages/Error/ErrorPage';
 import { Contact } from '../pages/Contact/Contact';
@@ -11,7 +11,7 @@ import { HorizontalLine } from '../components/HorizontalLine/HorizontalLine';
 
 export const HuesoCabra = () => {
   return (
-    <HashRouter >
+    <BrowserRouter >
       <NavHuesoCabra />
       <HorizontalLine />
       <Routes>
@@ -21,6 +21,6 @@ export const HuesoCabra = () => {
         <Route path='/oneProject/:id' element={<ProjectDetail />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
-    </HashRouter >
+    </BrowserRouter >
   )
 }
