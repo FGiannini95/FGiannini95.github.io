@@ -50,7 +50,7 @@ export const dataTrabajos = [
     id: 4,
     name: "Mesa sandwich",
     image: "MesaSandwich.jpg",
-    title: "Mesa sandwich",
+    title: "MESA SANDWICH",
     description:
       "Una mesa para seis. Inspirada en el mobiliario del artista estadounidense Donald Judd. Se construye a partir de una estructura de madera maciza y dos tableros de MDF que conforman el sandwich, generando un espacio de almacenaje entre estos. La madera maciza le confiere rigidez a la estructura, mientras que el tablero ofrece un acabado y textura ideal para el trabajo..",
     material: "Madera maciza de pino y MDF hidrófugo.",
@@ -68,7 +68,7 @@ export const dataTrabajos = [
     id: 5,
     name: "Cubo de 11 artistas",
     image: "Cubo11Artistas.jpg",
-    title: "Cubo de 11 artistas",
+    title: "CUBO DE 11 ARTISTAS",
     description:
       "Un cubo con una apertura en una de sus aristas que lo hace practicable. Es un elemento de almacenaje que sirve también como asiento. La cara practicable del cubo es el frente. Incorpora un cajón independiente que se puede extraer gracias a unos pequeños rodamientos en la base. El cubo se construye con todas sus aristas en bisel, de forma que no se ve el canto de ninguno de los tableros.",
     material: "MDF hidrófugo.",
@@ -87,7 +87,7 @@ export const dataTrabajos = [
     id: 6,
     name: "Estantería sección variable",
     image: "EstanteríaSecciónVariable.jpg",
-    title: "Estantería de sección variable",
+    title: "ESTANTERÍA DE SECCIÓN VARIABLE",
     description:
       "Una estantería que se fija en la estructura arquitectónica para resolver los encuentros de la forma más honesta. Cuyas baldas cambian de sección según la luz que haya entre sus apoyos. Los travesaños donde apoyan las baldas varían en altura para compensar el espesor del tablero. Se construye con madera maciza y tablero de MDF.",
     material: "Madera maciza de pino y MDF hidrófugo.",
@@ -105,7 +105,7 @@ export const dataTrabajos = [
     id: 7,
     name: "Banco de trabajo",
     image: "BancoTrabajo.jpg",
-    title: "Banco de trabajo",
+    title: "BANCO DE TRABAJO",
     description:
       "Un banco de trabajo para el taller. Una mesa alta y robusta, con apoyos nivelables y ruedas para desplazarla fácilmente por el taller. La superficie de trabajo se construye con un tablero de MDF hidrófugo de 30 milímetros de espesor. La estructura está hecha de madera maciza de pino laminada.",
     material: "Madera maciza de pino y MDF hidrófugo.",
