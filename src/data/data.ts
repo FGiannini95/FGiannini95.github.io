@@ -3,7 +3,7 @@ export const dataTrabajos = [
     id: 1,
     name: "Silla Bo Bardi",
     image: "SillaBobardi.jpg",
-    title: "Silla Bo Bardi",
+    title: "SILLA BO BARDI",
     description:
       "Una silla inspirada en un diseño de Lina Bo Bardi. Los tres planos que componen el asiento recuerdan a los bancos que diseñó la arquitecta para la capilla Santa María dos Anjos, en Sao Paulo. El asiento y el respaldo pueden fabricarse con tableros de fibra o con madera maciza.",
     material: "Madera maciza de Fresno y MDF hidrófugo.",
@@ -15,7 +15,7 @@ export const dataTrabajos = [
     id: 2,
     name: "Banqueta Bo Bardi",
     image: "BanquetaBoBardi.jpg",
-    title: "Banqueta Bo Bardi",
+    title: "BANQUETA BO BARDI",
     description:
       "La versión reducida de la silla Bo Bardi. Una banqueta baja. Un mueble más versátil pensado para espacios pequeños. El asiento puede fabricarse con tableros de fibra o con madera maciza.",
     material: "Madera maciza de roble y MDF hidrófugo.",
@@ -33,7 +33,7 @@ export const dataTrabajos = [
     id: 3,
     name: "Caballete",
     image: "Caballete.jpg",
-    title: "Caballete",
+    title: "CABALLETE",
     description:
       "Un banco para una casa, un caballete para el taller, o una mesa. Un elemento minimalista con muchas posibilidades. Es apilable horizontalmente, de esta manera se podrán juntar dos o más para crear superficies más grandes. La construcción del caballete admite infinidad de materiales.",
     material: "Madera maciza de roble.",
