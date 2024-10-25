@@ -1,17 +1,14 @@
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { FiMail } from "react-icons/fi";
-import { FiInstagram } from "react-icons/fi";
-import { FiMapPin } from "react-icons/fi";
-import { FiPhone } from "react-icons/fi";
+import { FiMail, FiInstagram, FiMapPin, FiPhone } from "react-icons/fi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Contact = () => {
 
   return (
     <Container className="container-fluid pt-5 pb-5">
-      <Row className="align-items-center">
-        <Col xs={12} md={5} className="d-flex justify-content-center">
+      <Row className="align-items-start">
+        <Col xs={12} lg={5} className="d-flex justify-content-center">
           <img
             src="/assets/NachoSegura.jpg"
             alt="Foto perfil Nacho Segura"
@@ -19,7 +16,7 @@ export const Contact = () => {
             loading="lazy"
           />
         </Col>
-        <Col xs={12} md={7} className="pt-3 pt-md-0">
+        <Col xs={12} lg={7} className="pt-3 pt-lg-0">
           <p>
             <span style={{ fontWeight: 'bold' }}>HUESOCABRA</span> es un espacio de creación emancipado. Un lugar para la experimentación del diseño y la producción artesanal de elementos en madera. Desde la silla a la cabaña. No es solo un taller, sino un estudio de carpintería. Donde la materialización individual de cada pieza va acompañada de un proceso creativo, alejándose de producciones en masa y prácticas agresivas de consumo. Diseñamos piezas únicas de mobiliario que se inspiran en la tradición para comunicarse en un lenguaje contemporáneo y experimental.</p>
           <p >

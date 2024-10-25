@@ -8,7 +8,6 @@ import { ProjectDetail } from '../pages/ProjectDetail/ProjectDetail';
 import { NavHuesoCabra } from '../components/NavHuesoCabra/NavHuesoCabra';
 import { HorizontalLine } from '../components/HorizontalLine/HorizontalLine';
 
-
 export const HuesoCabra = () => {
   return (
     <BrowserRouter >
