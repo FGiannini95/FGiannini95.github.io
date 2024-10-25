@@ -11,7 +11,7 @@ export const NavHuesoCabra = () => {
     <Navbar expanded={expanded} expand="sm" className="navbar sticky-top p-2">
       <Container>
         <Navbar.Brand as={Link} to="/" className="navbarLogo">
-          <h3 style={{ margin: 0, fontSize: 'inherit' }}>HUESOCABRA</h3>
+          <h3 style={{ margin: 0, fontSize: 'inherit', fontWeight: 'bold' }}>HUESOCABRA</h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="navbarNav"
@@ -23,7 +23,7 @@ export const NavHuesoCabra = () => {
         <Navbar.Collapse id="navbarNav" className="justify-content-end">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)} className="navbarLogo">
-              <h3 style={{ margin: 0, fontSize: 'inherit' }}>CONTACTO</h3>
+              <h3 style={{ margin: 0, fontSize: 'inherit', fontWeight: 'bold' }}>CONTACTO</h3>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
