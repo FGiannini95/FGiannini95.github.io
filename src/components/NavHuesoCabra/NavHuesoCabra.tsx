@@ -2,11 +2,9 @@ import { useState } from 'react';
 import './NavHuesoCabra.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { FiMenu } from "react-icons/fi";
-
 import { Link } from 'react-router-dom';
 
 export const NavHuesoCabra = () => {
-
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -22,7 +20,6 @@ export const NavHuesoCabra = () => {
         >
           <FiMenu size={24} />
         </Navbar.Toggle>
-
         <Navbar.Collapse id="navbarNav" className="justify-content-end">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/contacto" onClick={() => setExpanded(false)} className="navbarLogo">
