@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Nav } from 'react-bootstrap';
 import { dataTrabajos } from '../../data/data';
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import './ProjectDetails.css'
@@ -26,7 +26,12 @@ export const ProjectDetail: React.FC = () => {
           <p className='projectDescription'>{project.description}</p>
           <p>{project.material}</p>
           <p>{project.medida}</p>
-        </Col>
+          <p className="d-inline">
+            Para adquirir u obtener más información&nbsp;
+            <Nav.Link href="mailto:info@huesocabra.com" className="link d-inline" style={{ fontWeight: 'bold', padding: 0 }}>
+              pinchar aquí
+            </Nav.Link>.
+          </p>        </Col>
         <Col xs={12} md={6}>
           <img className="d-block project-image w-100" src={`/assets/${project.carpeta}/${selectedImage}`} alt={project.title} />
         </Col>
