@@ -21,7 +21,7 @@ export const ProjectDetail: React.FC = () => {
         <Col xs={12} md={6} >
           <div className='d-flex align-items-center pb-2'>
             <MdKeyboardArrowLeft onClick={() => navigate(-1)} style={{ cursor: 'pointer' }} />
-            <h5 className='projectTitle'>{project.title}</h5>
+            <h3 className='projectTitle'>{project.title}</h3>
           </div>
           <p className='projectDescription'>{project.description}</p>
           <p>{project.material}</p>
