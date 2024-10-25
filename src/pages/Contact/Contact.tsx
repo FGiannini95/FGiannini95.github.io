@@ -1,9 +1,9 @@
 import { Container, Row, Col, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { MdEmail } from "react-icons/md";
-import { FaInstagram } from "react-icons/fa";
-import { GiPositionMarker } from "react-icons/gi";
-import { FaPhone } from "react-icons/fa6";
+import { FiMail } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { FiMapPin } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Contact = () => {
@@ -33,13 +33,13 @@ export const Contact = () => {
       <Row className="d-flex justify-content-between">
         <Col xs={3} className="text-center">
           <Nav.Link href="mailto:info@huesocabra.com" className="link">
-            <MdEmail size={20} />
+            <FiMail size={20} />
             <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>info@huesocabra.com</p>
           </Nav.Link>
         </Col>
         <Col xs={3} className="text-center">
-          <Nav.Link href="https://www.google.de/maps/place/La+Buia+Espacio+Creativo/@37.1607516,-3.6184501,20z/data=!4m9!1m2!2m1!1sJuncos+Pol%C3%ADgono+Industrial+Ctjo.+la+Pur%C3%ADsima,+7,+18006+Granada!3m5!1s0xd71fd555fe9c1d9:0xd4a0ecdea880281c!8m2!3d37.1608154!4d-3.6183347!16s%2Fg%2F11p66tfx3l?entry=ttu" className="link" target="_blank">
-            <GiPositionMarker size={20} />
+          <Nav.Link href="https://www.google.com/maps/place/Huesocabra/@37.1607713,-3.6175608,17z/data=!3m1!4b1!4m6!3m5!1s0xd71fd6886094973:0xd609ea500bb31cb6!8m2!3d37.1607713!4d-3.6175608!16s%2Fg%2F11wmh2_ds8?entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D" className="link" target="_blank">
+            <FiMapPin size={20} />
             <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>Polígono de la Purísima, 18006 Granada</p>
           </Nav.Link>
         </Col>
@@ -51,13 +51,13 @@ export const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram size={20} />
+            <FiInstagram size={20} />
             <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>huesocabra</p>
           </Nav.Link>
         </Col>
         <Col xs={3} className="text-center">
           <Nav.Link href="tel:+34625988312" style={{ padding: 0, color: 'inherit' }}>
-            <FaPhone size={20} />
+            <FiPhone size={20} />
             <p className="d-none d-md-block" style={{ fontSize: '0.8rem' }}>+34 625 98 83 12</p>
           </Nav.Link>
         </Col>
