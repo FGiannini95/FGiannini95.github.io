@@ -144,7 +144,7 @@ export const dataTrabajos = [
     id: 9,
     name: "Mueble para vinilos",
     image: "MuebleVinilos.jpg",
-    title: "MUEBLE VINILOS",
+    title: "MUEBLE PARA VINILOS",
     description:
       "Con una estructura modular, se le pueden agregar tantas columnas como se quiera. La estructura está hecha en madera maciza. Los cajones y el módulo superior se construyen con tableros de MDF tintado. Los frentes de los cajones se pueden personalizar. Además, llevan unas muescas que permiten mantener los vinilos en pie. Los platos y la mesa de mezclas se introducen en el módulo superior, quedando enrasados con el tablero.",
     medida: "200 x 50 x 90 cm",
