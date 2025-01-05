@@ -10,7 +10,6 @@ export const dataTrabajos = [
     medida: "45 x 50 x 85 cm",
     carpeta: "SillaBobardi",
     images: [
-      "00SillaBobardi.jpg",
       "01SillaBobardi.jpg",
       "02SillaBobardi.jpg",
       "03SillaBobardi.jpg",
